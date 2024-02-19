@@ -1,0 +1,384 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "PSgestionEscolar",
+    "dateExported": "2024-02-19T14:21:28.112Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ab86a3ea-e58c-42a8-9903-b5d849c3d7be",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Test Usuario",
+            "url": "localhost:4000/testU",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-18T04:38:22.197Z",
+            "modified": "2024-02-19T13:19:56.979Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQyYTFkZDNhYTkyYWU1Nzk4NWU4MDMiLCJ1c2VybmFtZSI6InNzYW50b3MiLCJuYW1lIjoiU2ViYXN0aWFuIiwicm9sZSI6IlRFQUNIRVJfUk9MRSIsImlhdCI6MTcwODM0ODc4NCwiZXhwIjoxNzA4MzU5NTg0fQ.AvNnx1J7KsqIP8Y4cHL1vbO7w03Uf5MnstcUCK93lx4"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a0a135cb-1ccf-4498-abeb-4b55d3a44cda",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Registrar Student",
+            "url": "localhost:4000/registerU",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-18T04:39:03.353Z",
+            "modified": "2024-02-19T00:33:27.169Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Sebastian"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Santos"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ssantos"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ssantos-2021374@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3432db1f-f3fc-4247-86c6-8ceb1515ccad",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Registrar Teacher",
+            "url": "localhost:4000/registerT",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-19T05:18:37.490Z",
+            "modified": "2024-02-19T05:22:26.420Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Joshue"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Noj"
+                    },
+                    {
+                        "name": "username",
+                        "value": "joshuenoj"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ssantos-2021374@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a176c0c8-a2c7-451a-b6d1-aa58e21fa813",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Login",
+            "url": "localhost:4000/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-19T00:34:33.619Z",
+            "modified": "2024-02-19T13:41:37.098Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "85fdb2e6-fe94-4476-9570-5d906d165b37",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "addCourse",
+            "url": "localhost:4000/addCourse",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-19T00:46:47.730Z",
+            "modified": "2024-02-19T03:33:49.380Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Ingles"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Ingles desde 0"
+                    },
+                    {
+                        "name": "price",
+                        "value": "400"
+                    },
+                    {
+                        "name": "duration",
+                        "value": "6 months"
+                    },
+                    {
+                        "name": "teacher",
+                        "value": "65d2a1dd3aa92ae57985e803"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0f2fcfd6-bc07-4d5d-b582-6842ef4e676a",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "deleteCourse",
+            "url": "localhost:4000/deleteCourse/65d2cc1d474d74c0c534a1e3",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-19T01:43:53.765Z",
+            "modified": "2024-02-19T03:55:13.414Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "65d25087-38f5-4b6b-9ab8-5302eb7d96c5",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "updateCourse",
+            "url": "localhost:4000/updateCourse/65d2b3d04b005f3b1ed38c46",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-02-19T01:51:47.700Z",
+            "modified": "2024-02-19T04:02:50.828Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Mongoose course"
+                    },
+                    {
+                        "name": "description",
+                        "value": "aprende mongoose en 24H"
+                    },
+                    {
+                        "name": "price",
+                        "value": "500"
+                    },
+                    {
+                        "name": "duration",
+                        "value": "1 Semana"
+                    },
+                    {
+                        "name": "teacher",
+                        "value": "65d2a1dd3aa92ae57985e803",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9e3fbd84-6ed1-4ffa-a792-bb7672e39d37",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Filtrar cursos de un maestro",
+            "url": "localhost:4000/searchCoursesByTeacher",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-02-19T02:42:33.662Z",
+            "modified": "2024-02-19T03:05:33.442Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "teacherId",
+                        "value": "65d2a1dd3aa92ae57985e803"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "94b11261-0b0f-4256-b46a-b0de5e505414",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Asignar curso",
+            "url": "localhost:4000/assingCourse",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-02-19T03:29:27.801Z",
+            "modified": "2024-02-19T04:10:22.468Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "studentId",
+                        "value": "65d18c07c39eb706d663f524"
+                    },
+                    {
+                        "name": "courseId",
+                        "value": "65d2d49b4450a1895e09d57b"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7a12d3c3-d40e-405e-90d6-c0d5359c789b",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "ver cursos en los que estoy asignado ",
+            "url": "localhost:4000/searchCoursesByStudent",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-02-19T03:44:09.733Z",
+            "modified": "2024-02-19T03:46:40.286Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0115a7d0-a715-4100-8fed-671bebba9a1d",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "Update student",
+            "url": "localhost:4000/UpdateU/65d2e5929bbe10f68258c6f9",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2024-02-19T05:21:02.285Z",
+            "modified": "2024-02-19T06:21:16.932Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQxOGMwN2MzOWViNzA2ZDY2M2Y1MjQiLCJ1c2VybmFtZSI6ImRhYmFkIiwibmFtZSI6IkRlbmlzIiwicm9sZSI6IlNUVURFTlRfUk9MRSIsImlhdCI6MTcwODMyMzU5MCwiZXhwIjoxNzA4MzM0MzkwfQ.WzZytQYCyPMxKKRmi4hUxKdPj7g51n_QwutCUs75Qcw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Joshue 2"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Noj 2"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jnoj111"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "email",
+                        "value": "jnoj@kinal.org.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d05ada90-397e-4ab8-9789-65394659c08c",
+            "colId": "54bb19da-82e0-4172-ae73-f594f6d09dd9",
+            "containerId": "",
+            "name": "ver cursos",
+            "url": "localhost:4000/getCourses",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2024-02-19T13:22:54.563Z",
+            "modified": "2024-02-19T13:43:16.092Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQxOGMwN2MzOWViNzA2ZDY2M2Y1MjQiLCJ1c2VybmFtZSI6ImRhYmFkIiwibmFtZSI6IkRlbmlzIiwicm9sZSI6IlNUVURFTlRfUk9MRSIsImlhdCI6MTcwODM1MDE4NSwiZXhwIjoxNzA4MzYwOTg1fQ.Zmk9XOh7D7LZnuC6_tI_Bqta5r3ZQaAx9kj2kXbF5FM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
